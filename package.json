@@ -1,0 +1,34 @@
+{
+  "name": "solid_principles",
+  "version": "1.0.0",
+  "description": "solid principles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avatrezaei/solid_principles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avatrezaei/solid_principles/issues"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "homepage": "https://github.com/avatrezaei/solid_principles#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "ts-jest": "^28.0.5"
+  }
+}
